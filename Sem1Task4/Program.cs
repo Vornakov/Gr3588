@@ -8,7 +8,7 @@ if(inputLine01!=null && inputLine02!=null && inputLine03!=null)    //Прове�
     int inputnumber02 = int.Parse(inputLine02);
     int inputnumber03 = int.Parse(inputLine03);
 
-    if(inputnumber01>inputnumber02)                             //Сравниваем 1е и 2е число
+    if(inputnumber01>inputnumber03)                             //Сравниваем 1е и 2е число
     {
         if(inputnumber01>inputnumber03)                         //Если 1е число оказалось больше сравниваем его с 3м
         {
